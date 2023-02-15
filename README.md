@@ -1,2 +1,3 @@
 # LATIHAN2DPBO2023
-Latihan DPBO
+Penjelasan Desain Program:
+a. Terdapat objek yang sama pada class Human dan Mahasiswa
