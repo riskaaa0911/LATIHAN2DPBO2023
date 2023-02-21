@@ -7,6 +7,10 @@ Saya Riska Nurohmah [2109103] mengerjakan Latihan Praktikum 2 dalam mata kuliah 
 
 ![prak_dpbo2 drawio (2)](https://user-images.githubusercontent.com/119839421/220388337-928ca90b-67f7-4448-9708-70922df52188.png)
 
+Program menerapkan konsep multilevel inheritance dimana terdapat 3 kelas yaitu:
+1. Class Human, berisi atribut nik, nama, dan gender.
+2. Class Mahasiswa, berisi atribut nim, fakultas dan prodi. Kelas Mahasiswa ini merupakan child/anak dari kelas Human, sehingga kelas Mahasiswa dapat mengakses atribut dan method pada kelas Human.
+3. Class SivitasAkademik, berisi atribut asal_univ dan email. Kelas SivitasAkademik merupakan anak dari kelas Mahasiswa dan cucu dari kelas Human, sehingga kelas SivitasAkademik dapat mengakses atribut dan method pada kelas Mahasiswa maupun kelas Human.
 
 ## Alur Program
 Ketika menjalankan program C++, Java dan Python maka akan tampil 3 pilihan menu yaitu:
