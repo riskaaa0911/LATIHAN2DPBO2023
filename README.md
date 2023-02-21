@@ -12,7 +12,7 @@ Program menerapkan konsep multilevel inheritance dimana terdapat 3 kelas yaitu:
 2. Class Mahasiswa, berisi atribut nim, fakultas dan prodi. Kelas Mahasiswa ini merupakan child/anak dari kelas Human, sehingga kelas Mahasiswa dapat mengakses atribut dan method pada kelas Human.
 3. Class SivitasAkademik, berisi atribut asal_univ dan email. Kelas SivitasAkademik merupakan anak dari kelas Mahasiswa dan cucu dari kelas Human, sehingga kelas SivitasAkademik dapat mengakses atribut dan method pada kelas Mahasiswa maupun kelas Human.
 
-Kelas Mahasiswa menjadi anak dari kelas Human karena kelas Human memiliki atribut yang dibutuhkan oleh kelas Mahasiswa. Kelas SivitasAkademik menjadi anak dari kelas Mahasiswa dan cucu dari kelas Human karena dalam kelas SivitasAkademik bisa membutuhkan atribut pada dua kelas tersebut, untuk memiliki email_edu tentunya harus merupakan bagian dari mahasiswa suatu universitas, dan Mahasiswa adalah seorang Human atau Manusia.
+Kelas Mahasiswa menjadi anak dari kelas Human karena kelas Human memiliki atribut yang dibutuhkan oleh kelas Mahasiswa seperti nama dan gender. Kelas SivitasAkademik menjadi anak dari kelas Mahasiswa dan cucu dari kelas Human karena dalam kelas SivitasAkademik bisa membutuhkan atribut pada dua kelas tersebut, untuk memiliki email_edu tentunya harus merupakan bagian dari mahasiswa suatu universitas, dan Mahasiswa adalah seorang Human atau Manusia.
 
 ## Alur Program
 Ketika menjalankan program C++ dan Python maka akan tampil 3 pilihan menu yaitu:
