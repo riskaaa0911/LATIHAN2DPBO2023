@@ -15,7 +15,7 @@ Program menerapkan konsep multilevel inheritance dimana terdapat 3 kelas yaitu:
 Kelas Mahasiswa menjadi anak dari kelas Human karena kelas Human memiliki atribut yang dibutuhkan oleh kelas Mahasiswa. Kelas SivitasAkademik menjadi anak dari kelas Mahasiswa dan cucu dari kelas Human karena dalam kelas SivitasAkademik bisa membutuhkan atribut pada dua kelas tersebut, untuk memiliki email tentunya harus merupakan bagian dari mahasiswa suatu universitas, dan Mahasiswa adalah seorang Human atau Manusia.
 
 ## Alur Program
-Ketika menjalankan program C++, Java dan Python maka akan tampil 3 pilihan menu yaitu:
+Ketika menjalankan program C++ dan Python maka akan tampil 3 pilihan menu yaitu:
 
 1. Lihat Data Mahasiswa
 2. Tambah Data Mahasiswa
@@ -25,7 +25,7 @@ Ketika menjalankan program C++, Java dan Python maka akan tampil 3 pilihan menu 
 - Ketika memilih menu 2, program akan meminta inputan jumlah data yang akan ditambahkan. Setelah itu data mahasiswa dapat ditambahkan sesuai jumlah yang diinput meliputi nik, nim, nama, gender, fakultas, prodi, asal universitas, dan email. Ketika sudah selesai, maka program akan memberikan pemberitahuan bahwa data tersebut sudah berhasil ditambahkan kedalam list.
 - Ketika memilih menu 3 maka program akan berhenti, sebelum memilih menu 3 maka program akan terus berjalan atau dapat memilih menu 1 atau 2.
 
-Untuk program PHP alur programnya berbeda dari bahasa yang lain. Pada program ini hanya menampilkan data daftar atau list mahasiswa saja yang inputannya dihardcode.
+Untuk program PHP dan Java alur programnya berbeda dari bahasa yang lain. Pada program ini hanya menampilkan data daftar atau list mahasiswa saja yang inputannya dihardcode.
 
 ## Dokumentasi (Program Bahasa C++)
 ![Screenshot (300)](https://user-images.githubusercontent.com/119839421/220386227-7feb0dae-cdee-4bab-b2b9-8f601df3b414.png)
